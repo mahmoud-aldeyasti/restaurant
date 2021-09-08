@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+  
+    margin: 0;
+    padding: 0;
+    
+ }
+ body{
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+ }
+
+
+ footer{
+     background-color: black;
+     color: white;
+     text-align: center;
+     height: 70px;
+     font-size: 30px;
+     font-weight: 1000;
+     padding-top: 20px;
+     
+
+ }
+ footer span{
+     color: yellow;
+ }
+
+ .imadges img
+ {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.8);
+    transition: all 0.3s linear;
+    text-align: center;
+
+ }
+ .imadges div{
+     width: 250px;
+     height: 250px;
+     margin: 30px;
+     display: inline-block;
+     align-items: center;
+     cursor: pointer;
+     text-align: center;
+
+ }
+ .imadges img:hover{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0);
+    text-align: center;
+    transition: all 0.3s linear;
+
+
+}
+.imadges{
+    text-align: center;
+
+}
+header{
+    background-color: rgb(226, 205, 14);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+
+}
+.himage{
+flex-basis: 40%;
+min-width: 290px;
+padding-top: 25px; 
+
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+.hhead span{
+
+   text-transform: uppercase;
+    font-weight: bold;
+    text-decoration:underline ;
+}
+.hhead p{
+    font-size: 90px;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+
+.hhead div{
+    width: 150px;
+    height: 40px;
+    background-color: greenyellow;
+    border-radius: 0.5rem;
+    border: hidden;
+    margin: 25px;
+    margin-left: 50px;
+    padding-top: 7px;
+
+
+
+}
+.hhead a{
+    color: white;
+    text-decoration:none ;
+    font-size: 20px;
+   align-items:center;
+   font-weight: bold;
+   
+}
+.a1{
+    display: block;
+}
+.hhead{
+    height: 500px;
+    padding-top: 150px;
+
+}
+.month{
+    align-items: center;
+    text-align: center;
+    
+}
+.mhead{
+
+    align-items: center;
+    text-align: center;
+}
+aside
+{
+    height: 30px;
+    background-color: black;
+   text-transform: uppercase;
+
+    
+}
+aside ul{
+    list-style-type:none ;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+aside ul li{
+    display: inline;
+
+    margin-left:50px ;
+    margin-right:50px ;
+   
+
+}
+aside ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+aside ul li a:hover{
+    color: green;
+    text-decoration: none;
+}
+i{
+    color: white;
+    font-size: 20px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+
+}
+
+aside i:hover
+{
+    color: green;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    background-color: rgb(226, 205, 14);
+    height: 500px;
+}
+.cimage{
+position: absolute;
+right: 120px;
+width: 475px;
+height: 420px;
+}
+.cimage img{
+    width: 100%;
+    height: 100%;
+}
+input{
+
+    display: block;
+    }
+
+.ccontent{
+    position: absolute;
+    left: 120px;
+    align-items: center;
+}
+.ccontent h1{
+    
+    font-size: 60px;
+    line-height: 30px; 
+}
+
+.ccontent p{
+
+    font-size: 20px;
+    margin-top: 30px; 
+}
+.email{
+    width: 350px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 30px;
+
+}
+
+.submit{
+margin-top: 20px;
+width: 140px;
+height: 40px;
+color: white;
+background-color: greenyellow;
+font-size: 20px;
+border-radius: 12px;
+font-weight: bold;
+}
+
+.foodsection{
+    background-image: linear-gradient(rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5)), url(./images/food_section.jpg);
+    width: 100%;
+    min-height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.foodsection i{
+    font-size: 100px;
+    font-weight: 900;
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: -40px;
+
+
+    
+}
+
+.foodsection p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.7;
+    text-align: center;
+    align-items: center;
+}
+.foodsection h1{
+    font-size: 36px;
+    margin: 20px 0; 
+    text-align: center;
+    align-items: center;
+}
+.foodsection div{
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    
+    
+}
+
+.a2{
+    width: fit-content;
+    font-size: 4rem;
+    color: #333;
+    text-align: center;
+    margin: 5rem auto;
+    position: relative;
+}
+.a2::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    bottom: -70px;
+    background-image: url(./images/underline.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+    
+.about-me{
+    padding: 2% 6%;
+    background-color: #edeeee;
+}
+.a3{
+    display: flex;
+    position: relative;
+}
+.aimg{
+    min-width: 400px;
+    flex-basis: 50%;
+}
+.a1{
+    flex-basis: 50%;
+    position: relative;
+    top: 170px;
+    left: 30px;
+}
+.aimg img{
+    width: 100%;
+    height: 100%;
+}
+.a1 h1{
+    font-size: 4rem;
+
+}
+.a1 p{
+    font-size: 24px;
+    line-height: 1.8;
+    margin: 30px 0;
+}
+.a1 a{
+    padding: 10px 30px;
+    background-color: yellowgreen;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.mhead h1{
+    width: fit-content;
+    font-size: 4rem;
+    color: #333;
+    text-align: center;
+    margin: 5rem auto;
+    position: relative;
+}
+
+.mhead h1::after{
+content: '';
+background-image: url(./images/underline.svg);
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 100%;
+opacity: 0.8;
+position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    bottom: -70px;
+}
+
+.month1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    padding:0;
+}
+.green-fava ,.celery-quand ,.pea-horse ,.sokoradichoo ,.tigernut ,.yarrow-sweet{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.emg{
+    flex-basis: 50%;
+    width: 370px;
+    height: 370px;
+}
+.emg img{
+    width: 100%;
+    height: 100%;
+}
+.dic{
+    flex-basis: 50%;
+    width: 370px;
+    height: 370px;
+    padding-top: 100px;
+}
+ 
+.dic:hover{
+    background-color: #f4db4b;
+    transition: all 3s linear;
+    cursor: pointer;
+    background-blend-mode: screen;
+    
+}
+.dic h2{
+    
+    font-size: 20px;
+
+}
+.dic h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ .dic p{
+    line-height: 1.7;
+    margin-bottom: 20px;
+ }
